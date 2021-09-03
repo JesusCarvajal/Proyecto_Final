@@ -109,6 +109,16 @@ background-color: lightgrey;
 .accesos:hover{
     font-style: italic;
     color: rgb(255, 255, 255);
+
+}
+
+a{
+    color: black;
+}
+
+a:hover{
+    color: white;
+    
 }
 
 .secc{
