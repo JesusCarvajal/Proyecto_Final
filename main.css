@@ -1,0 +1,185 @@
+.titulo{
+    font-size: 40px;
+    /*font-family: 'Indie Flower', cursive;*/
+    font-family: 'Sansita';
+    color: white;
+}
+#logo{
+    background-color: white;
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
+}
+
+.logo_img{
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+
+#fondo_logo_titulo{
+    background-color: black;
+    background-size: 100%;
+    display: flex;
+}
+
+#div_titulo{
+    background-color: black;
+    position: fixed
+    left: 0px;
+}
+
+#barra_superior{
+    display: flex;
+    background-color: black;
+    position: fixed;
+    width: 100%;
+    height: 70px;
+    background-image: url(/imagenes/fondo_barra.jpg);
+    background-size: 110px;
+    background-position: center;
+    background-blend-mode: hard-light;
+}
+
+body{
+background-color: lightgrey;
+}
+
+* {
+    margin: 0;
+}
+
+#barra_lateral{
+    width: 250px;
+    height: 100vh;
+    background-color: rgb(66, 66, 66);
+    position: fixed;
+    margin-top: 70px;
+    left: -250px;
+    transition: all 300ms linear;
+    background-image: url(/imagenes/fondo_barra_lateral.jpg);
+    background-position:center;
+    background-size: 500px;
+    background-blend-mode:exclusion;
+}
+
+#logo_barra_lateral{
+
+    width: 60px;
+    height: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: 20px;
+    padding: 15px;
+    cursor: pointer;
+    
+}
+
+#barra_lateral.active{
+    left: 0;
+}
+
+.barra_btn{
+    position: absolute;
+    left: 260px;
+    top: 10px;
+    cursor: pointer;
+    display: block;
+    text-align: center;
+    width: 30px;
+    height: 25px;
+    font-size: 20px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+#accesos_rapidos{
+}
+
+.accesos{
+    padding-top: 10px;
+    padding-bottom: 25px;
+    cursor: pointer;
+    font-size: 20px;
+    font-style: normal;
+    transition: all 300ms linear;
+}
+
+.accesos:hover{
+    font-style: italic;
+    color: rgb(255, 255, 255);
+}
+
+.secc{
+
+}
+.receta{
+    background-color:rgb(78, 57, 29);
+    width: 220px;
+    height: 220px;
+    position: absolute;
+    border-radius: 20px;
+}
+
+.receta:hover{
+    width: 240px;
+    height: 240px;
+}
+
+#latte{
+    top: 50px;
+    left: 270px;
+    transition: all 300ms linear;
+}
+
+
+#espresso{
+    left: 520px;
+    top: 50px;
+    transition: all 300ms linear;
+}
+#Mocha{
+    left: 770px;
+    top: 50px;
+    transition: all 300ms linear;
+}
+
+#frappe{
+    left: 1020px;
+    top: 50px;
+    transition: all 300ms linear;
+}
+
+#masala_chai{
+    left: 1270px;
+    top: 50px;
+    transition: all 300ms linear;
+}
+
+#masala_chai.active{
+    left: 270px;
+    top: 300px;
+    transition: all 300ms linear;
+
+}
+
+#frappe_de_chocolate{
+    left: 270px;
+    top: 300px;
+    transition: all 300ms linear;
+}
+#frappe_de_chocolate.active{
+    left: 520px;
+    top:  300px;
+    transition: all 300ms linear;
+}
+#frappe{
+    left: px;
+    top: px;
+    transition: all 300ms linear;
+}
+.icono_receta{
+
+}
