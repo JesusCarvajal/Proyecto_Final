@@ -151,6 +151,10 @@ a:hover{
     border-radius: 20px;
     text-align: center;
 }
+.icono_receta{
+    width: 100%;
+    height: 80%;
+}
 
 .imagen_receta{
     width: 100%;
@@ -216,9 +220,7 @@ a:hover{
     transition: all 300ms linear;
 }
 
-.icono_receta{
 
-}
 @media only screen and (max-width: 1230px){
 
     #masala_chai{
