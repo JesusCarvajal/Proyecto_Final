@@ -58,7 +58,7 @@ background-color: lightgrey;
     margin-top: 70px;
     left: -250px;
     transition: all 300ms linear;
-    background-image: url(/imagenes/fondo_barra_lateral.jpg);
+    background-image: url(imagenes/fondo_barra_lateral.jpg);
     background-position:center;
     background-size: 500px;
     background-blend-mode:exclusion;
