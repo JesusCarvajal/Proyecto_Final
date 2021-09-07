@@ -141,6 +141,10 @@ a:hover{
     
 }
 
+#imagen2{
+    width: 100%;
+}
+
 #texto_receta{
     position: fixed;
     display: contents;

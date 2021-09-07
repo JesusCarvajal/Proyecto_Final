@@ -15,8 +15,9 @@ async function sendApiRequest(){
 }
 
 function useApiData(data){
-	document.querySelector("#Exp").innerHTML += data.explanation
-	document.querySelector("#imagen_receta").innerHTML = data.url
+	document.getElementById("Exp").innerHTML = data.explanation
+	imagen = document.getElementById("imagen2")
+	imagen.src=data.url;
 }
 
 sendApiRequest()
