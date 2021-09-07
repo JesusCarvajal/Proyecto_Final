@@ -8,4 +8,3 @@ btn.addEventListener("click", function(){
     document.getElementById("frappe").classList.toggle('active');
     document.getElementById("Mocha").classList.toggle('active');
 });
-
